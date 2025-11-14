@@ -1,7 +1,7 @@
-#Restaurante
-##Implementado até agora:
+# Restaurante
+## Implementado até agora:
     - CRUD
     - Relacionamento entre classes
 
-###Faltando
+### Faltando
     - Seleção do banco de dados (Postgresql ou MySQL)
