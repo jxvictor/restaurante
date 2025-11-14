@@ -69,9 +69,9 @@ public class ItemController {
         Optional<Item> us = itemService.findById(id);
         try
         {
-            item.setNome(item.getNome());
-            item.setDescricao(item.getDescricao());
-            item.setValor(item.getValor());
+            item.setNome(us.get().getNome());
+            item.setDescricao(us.get().getDescricao());
+            item.setValor(us.get().getValor());
             itemService.save(item);
             return ResponseEntity.ok().build();
         }
