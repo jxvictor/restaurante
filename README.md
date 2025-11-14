@@ -5,3 +5,4 @@
 
 ### Faltando
     - Seleção do banco de dados (Postgresql ou MySQL)
+    - CRUD de Shopping /etc
