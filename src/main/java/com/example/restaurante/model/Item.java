@@ -19,6 +19,9 @@ public class Item implements Serializable {
     private String descricao;
     private double valor;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @OneToMany
     Cardapio cardapio;
+
+    @ManyToOne
+    Restaurante restaurante;
 }
