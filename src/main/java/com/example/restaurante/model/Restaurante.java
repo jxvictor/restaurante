@@ -25,4 +25,7 @@ public class Restaurante implements Serializable {
     @OneToMany
     Item item;
 
+    @ManyToOne(fetch = FetchType.LAZY)
+    Restaurante restaurante;
+
 }
