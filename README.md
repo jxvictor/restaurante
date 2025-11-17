@@ -3,6 +3,7 @@
     - CRUD
     - Relacionamento entre classes
 
-### Faltando
-    - Seleção do banco de dados (Postgresql ou MySQL)
-    - CRUD de Shopping /etc
+## Faltando implementar
+    - Autenticação e Autorização
+    - Docker
+    - Frontend com Angular
